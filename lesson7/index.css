@@ -2,7 +2,7 @@
     color: #333;
     font-family: Arial, Helvetica, sans-serif;
 }
-a:link {
+a {
    color: #00f;
    text-decoration: underline; 
 }
