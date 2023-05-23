@@ -1,0 +1,48 @@
+.type {
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+    margin-right: 550px;
+    background-image: url(sunrays-background.jpg);
+    background-repeat: no-repeat;
+    background-size: 450px 750px;
+}
+a {
+   color: #00f;
+   text-decoration: underline; 
+}
+a:visited {
+    color: #005;
+    text-decoration: underline;
+}
+a:hover {
+    text-decoration: none;
+}
+.position {
+    background-color: rgb(172, 172, 212);
+    font-weight: bold;
+}
+.name {
+    font-style: oblique;
+    border-bottom: 1px solid rgb(230, 182, 26);
+}
+.nazva {
+    text-transform: uppercase;
+    background-color: rgb(102, 102, 167);
+}
+.square {
+    list-style-type: square;
+}
+.bottomh2 {
+    border-bottom: 1px solid rgb(230, 182, 26);
+}
+.bottomh3 {
+    border-bottom: 1px solid rgb(230, 182, 26);
+}
+.bottom-skills {
+    border-bottom: 1px solid rgb(230, 182, 26);
+}
+.foto {
+    border: 2px solid rgb(128, 101, 13);
+    padding: 10px;
+}
