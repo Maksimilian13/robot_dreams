@@ -1,0 +1,28 @@
+.type {
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+   color: #00f;
+   text-decoration: underline; 
+}
+a:visited {
+    color: #005;
+    text-decoration: underline;
+}
+a:hover {
+    text-decoration: none;
+}
+.position {
+    font-weight: bold;
+}
+.name {
+    font-style: oblique;
+    border-bottom: rgb(214, 111, 27);
+}
+.nazva {
+    text-transform: uppercase;
+}
+.square {
+    list-style-type: square;
+}
