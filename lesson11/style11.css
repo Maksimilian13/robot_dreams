@@ -1,0 +1,237 @@
+@font-face {
+    font-family: whittelove;
+    src: url(White\ Love\ OTF.otf);
+}
+@font-face {
+    font-family: lobster;
+    src: url(Lobster-Regular.ttf);
+}
+@font-face {
+    font-family: merriweather;
+    src: url(Merriweather-BoldItalic.ttf);
+}
+body {
+    margin: 0;
+    background-color: black;
+}
+
+
+nav {
+    display: flex;
+    background-color: #333232;
+    width: 100%;
+    height: 70px;
+    justify-content: left;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 24;
+    margin-left: 100px;
+    margin-top: 23px;
+    font-family: merriweather;
+    font-size: 20px;
+}
+ header {
+    display: flex;
+    width: 100%;
+    height: 80px;
+ }
+ header p {
+    color: white;
+ }
+ .number-time {
+    margin-top: 25px;
+    justify-content: center;
+    
+ }
+ .number-time-number {
+    margin: 0;
+ }
+ .number-time-time {
+    margin: 0;
+ }
+.logo-burger {
+    margin-top: 10px;
+    margin-left: 80px;
+}
+.adress {
+    margin: 30px;
+}
+.butter {
+    width: 200px;
+    height: 50px;
+    background-color: #F2AA3D;
+    position: relative;
+    left: 472px;
+    margin-top: 27px;
+}
+.butter-order {
+    display: block;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+    margin-left: 66px;
+    margin-top: 5px;
+    text-transform: uppercase;
+    font-family: whittelove;
+}
+.menu {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 90px;
+}
+.logo-menu {
+    margin-left: -2px;
+    width: 52px;
+    height: 50px;
+}
+.menu-name {
+    color: #F2AA3D;
+    margin-left: 40px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: lobster;
+    font-size: 25px;
+    margin-top: 11px;
+}
+.nav-list {
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 155px 155px 155px;
+    grid-row-gap: 56px;
+    display: grid;
+    width: 100%;
+    height: 900px;
+    justify-content: center;
+    margin-left: 80px;
+    margin-top: 40px;
+}
+.nav-list-burger-img {
+    position: relative;
+    width: 420px;
+    height: 155px;
+}
+.nav-list-burger-span {
+    margin-left: 40px;
+    display: block;
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: -45px;
+}
+.nav-list-doner-img {
+    margin-left: 92px;
+    width: 244px;
+    height: 155px;
+}
+.nav-list-doner-span {
+    margin-left: 120px;
+    display: block;
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: -45px;
+}
+.nav-list-box-img {
+    width: 290px;
+    height: 155px;
+}
+.nav-list-box-span {
+    margin-left: 40px;
+    display: block;
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: -45px;
+}
+.nav-list-snacks-img {
+    width: 270px;
+    height: 155px;
+}
+.nav-list-snacks-span {
+    margin-left: 40px;
+    display: block;
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: -45px;
+}
+.nav-list-pizza-img {
+    margin-left: -50px;
+    width: 420px;
+    height: 155px;
+}
+.nav-list-pizza-span {
+    margin-left: -10px;
+    display: block;
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: -45px;
+}
+.nav-list-hot-dog-img {
+    margin-left: 39px;
+    width: 250px;
+    height: 155px;
+}
+.nav-list-hot-dog-span {
+    margin-left: 79px;
+    display: block;
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: -45px;
+}
+.nav-list-sushi-img {
+    width: 320px;
+    height: 155px;
+}
+.nav-list-sushi-span {
+    margin-left: 40px;
+    display: block;
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: -45px;
+}
+.nav-list-drinks-img {
+    width: 295px;
+    height: 155px;
+}
+.nav-list-drinks-span {
+    margin-left: 40px;
+    display: block;
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: -45px;
+}
+.nav-list-sause-img {
+    margin-left: -28px;
+    width: 320px;
+    height: 155px;
+}
+.nav-list-sause-span {
+    display: block;
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-left: 12px;
+    margin-top: -45px;
+}
+.nav-list a {
+    text-decoration: none;
+}
+.nav-list img {
+    opacity: 0.7;
+}
+
