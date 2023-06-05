@@ -1,21 +1,19 @@
 @font-face {
     font-family: whittelove;
-    src: url(White\ Love\ OTF.otf);
+    src: url(font/White\ Love\ OTF.otf);
 }
 @font-face {
     font-family: lobster;
-    src: url(Lobster-Regular.ttf);
+    src: url(font/Lobster-Regular.ttf);
 }
 @font-face {
     font-family: merriweather;
-    src: url(Merriweather-BoldItalic.ttf);
+    src: url(font/Merriweather-BoldItalic.ttf);
 }
 body {
     margin: 0;
     background-color: black;
 }
-
-
 nav {
     display: flex;
     background-color: #333232;
@@ -43,8 +41,7 @@ nav a {
  .number-time {
     margin-top: 25px;
     justify-content: center;
-    
- }
+}
  .number-time-number {
     margin: 0;
  }
