@@ -1,0 +1,16 @@
+@font-face {
+    font-family: whittelove;
+    src: url(../font/White\ Love\ OTF.otf);
+}
+@font-face {
+    font-family: lobster;
+    src: url(../font/Lobster-Regular.ttf);
+}
+@font-face {
+    font-family: merriweather;
+    src: url(../font/Merriweather-BoldItalic.ttf);
+}
+body {
+    background-color: black;
+    margin: 0;
+}
