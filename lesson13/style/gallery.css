@@ -1,0 +1,22 @@
+h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    color: #d1830f;
+    text-transform: uppercase;
+    margin-top: 150px;
+    font-family: merriweather;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-height: 1844px;
+    width: 1300px;
+    justify-content: center;
+    margin: 100px auto;
+}
+main img {
+    width: 33%;
+    margin: 5px 5px;
+}

@@ -1,0 +1,136 @@
+.nav-list {
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 200px 200px 200px;
+    grid-row-gap: 56px;
+    display: grid;
+    width: 1500px;
+    margin: auto;
+    height: 1200px;
+    justify-content: center;
+}
+.nav-list-burger-img {
+    width: 550px;
+    height: 200px;
+}
+.nav-list-burger-span {
+    left: 40px;
+    display: block;
+    position: relative;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    top: -45px;
+}
+.nav-list-doner-img {
+    margin-left: 100px;
+    width: 350px;
+    height: 200px;
+}
+.nav-list-doner-span {
+    left: 135px;
+    display: block;
+    position: relative;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    top: -45px;
+}
+.nav-list-box-img {
+    width: 350px;
+    height: 200px;
+}
+.nav-list-box-span {
+    left: 40px;
+    display: block;
+    position: relative;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    top: -45px;
+}
+.nav-list-snacks-img {
+    width: 350px;
+    height: 200px;
+}
+.nav-list-snacks-span {
+    left: 40px;
+    display: block;
+    position: relative;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    top: -45px;
+}
+.nav-list-pizza-img {
+    margin-left: -100px;
+    width: 550px;
+    height: 200px;
+}
+.nav-list-pizza-span {
+    left: -30px;
+    display: block;
+    position: relative;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    top: -45px;
+}
+.nav-list-hot-dog-img {
+    width: 350px;
+    height: 200px;
+}
+.nav-list-hot-dog-span {
+    left: 45px;
+    display: block;
+    position: relative;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    top: -45px;
+}
+.nav-list-sushi-img {
+    width: 550px;
+    height: 200px;
+}
+.nav-list-sushi-span {
+    left: 40px;
+    display: block;
+    position: relative;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    top: -45px;
+}
+.nav-list-drinks-img {
+    margin-left: 100px;
+    width: 350px;
+    height: 200px;
+}
+.nav-list-drinks-span {
+    left: 140px;
+    display: block;
+    position: relative;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    top: -45px;
+}
+.nav-list-sause-img {
+    width: 350px;
+    height: 200px;
+}
+.nav-list-sause-span {
+    display: block;
+    position: relative;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    left: 45px;
+    top: -45px;
+}
+.nav-list a {
+    text-decoration: none;
+}
+.nav-list img {
+    opacity: 0.7;
+}
