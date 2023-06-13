@@ -18,6 +18,7 @@ a:hover {
 }
 .name {
     font-style: oblique;
+    border-bottom: rgb(214, 111, 27);
 }
 .nazva {
     text-transform: uppercase;
