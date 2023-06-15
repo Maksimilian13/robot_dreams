@@ -1,0 +1,25 @@
+@font-face {
+    font-family: whittelove;
+    src: url(../font/White\ Love\ OTF.otf);
+}
+@font-face {
+    font-family: lobster;
+    src: url(../font/Lobster-Regular.ttf);
+}
+@font-face {
+    font-family: merriweather;
+    src: url(../font/Merriweather-BoldItalic.ttf);
+}
+
+:root {
+    --font-color-orange: #F2AA3D;
+    --font-color-orange2: #d1830f;
+    --color-word: white;
+    --br-color:  black;
+    --br-nav-cont: #333232;
+    --font-size-home: 20px;
+}
+body {
+    background-color: var(--br-color);
+    margin: 0;
+}

@@ -1,0 +1,143 @@
+.nav-list {
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 200px 200px 200px;
+    grid-row-gap: 56px;
+    display: grid;
+    width: 1500px;
+    margin: auto;
+    height: 1200px;
+    justify-content: center;
+}
+.nav-list {
+    --bottom: 45px;
+    --widht-big: 550px;
+    --widht-small: 350px;
+    --height-img: 200px;
+    --left: 40px;
+}
+.nav-list-burger-img {
+    width: var(--widht-big);
+    height: var(--height-img);
+}
+.nav-list-burger-span {
+    left: var(--left);
+    display: block;
+    position: relative;
+    color: var(--color-word);
+    font-size: var(--font-size-home);
+    text-transform: uppercase;
+    bottom: var(--bottom);
+}
+.nav-list-doner-img {
+    margin-left: 100px;
+    width: var(--widht-small);
+    height: var(--height-img);
+}
+.nav-list-doner-span {
+    left: 135px;
+    display: block;
+    position: relative;
+    color: var(--color-word);
+    font-size: var(--font-size-home);
+    text-transform: uppercase;
+    bottom: var(--bottom);
+}
+.nav-list-box-img {
+    width: var(--widht-small);
+    height: var(--height-img);
+}
+.nav-list-box-span {
+    left: var(--left);
+    display: block;
+    position: relative;
+    color: var(--color-word);
+    font-size: var(--font-size-home);
+    text-transform: uppercase;
+    bottom: var(--bottom);
+}
+.nav-list-snacks-img {
+    width: var(--widht-small);
+    height: var(--height-img);
+}
+.nav-list-snacks-span {
+    left: var(--left);
+    display: block;
+    position: relative;
+    color: var(--color-word);
+    font-size: var(--font-size-home);
+    text-transform: uppercase;
+    bottom: var(--bottom);
+}
+.nav-list-pizza-img {
+    margin-left: -100px;
+    width: var(--widht-big);
+    height: var(--height-img);
+}
+.nav-list-pizza-span {
+    right: 30px;
+    display: block;
+    position: relative;
+    color: var(--color-word);
+    font-size: var(--font-size-home);
+    text-transform: uppercase;
+    bottom: var(--bottom);
+}
+.nav-list-hot-dog-img {
+    width: var(--widht-small);
+    height: var(--height-img);
+}
+.nav-list-hot-dog-span {
+    left: 45px;
+    display: block;
+    position: relative;
+    color: var(--color-word);
+    font-size: var(--font-size-home);
+    text-transform: uppercase;
+    bottom: var(--bottom);
+}
+.nav-list-sushi-img {
+    width: var(--widht-big);
+    height: var(--height-img);
+}
+.nav-list-sushi-span {
+    left: var(--left);
+    display: block;
+    position: relative;
+    color: var(--color-word);
+    font-size: var(--font-size-home);
+    text-transform: uppercase;
+    bottom: var(--bottom);
+}
+.nav-list-drinks-img {
+    margin-left: 100px;
+    width: var(--widht-small);
+    height: var(--height-img);
+}
+.nav-list-drinks-span {
+    left: 140px;
+    display: block;
+    position: relative;
+    color: var(--color-word);
+    font-size: var(--font-size-home);
+    text-transform: uppercase;
+    bottom: var(--bottom);
+}
+.nav-list-sause-img {
+    width: var(--widht-small);
+    height: var(--height-img);
+}
+.nav-list-sause-span {
+    display: block;
+    position: relative;
+    color: var(--color-word);
+    font-size: var(--font-size-home);
+    text-transform: uppercase;
+    left: 45px;
+    bottom: var(--bottom);
+}
+.nav-list a {
+    text-decoration: none;
+}
+.nav-list img {
+    opacity: 0.7;
+}
