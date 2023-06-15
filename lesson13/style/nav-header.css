@@ -1,21 +1,21 @@
 nav {
     display: flex;
-    background-color: #333232;
+    background-color: var(--br-nav-cont);
     width: 100%;
     height: 70px;
     justify-content: left;
 }
 nav a {
-    color: white;
+    color: var(--color-word);
     text-decoration: none;
     font-size: 24;
     margin-left: 210px;
     margin-top: 23px;
     font-family: merriweather;
-    font-size: 20px;
+    font-size: var(--font-size-home);
 }
 nav a:hover {
-    color: #F2AA3D;
+    color: var(--font-color-orange);
 }
  header {
     position: fixed;
@@ -25,10 +25,10 @@ nav a:hover {
     margin-top: 20px;
     margin-left: 195px;
     height: 80px;
-    background-color: black;
+    background-color: var(--br-color);
  }
  header p {
-    color: white;
+    color: var(--color-word);
     font-size: 1.2em;
  }
  .number-time {
@@ -44,7 +44,7 @@ nav a:hover {
 .butter {
     width: 200px;
     height: 50px;
-    background-color: #F2AA3D;
+    background-color: var(--font-color-orange);
     position: relative;
     left: 420px;
     margin-top: 27px;
@@ -53,7 +53,7 @@ nav a:hover {
 .butter-order {
     display: block;
     font-size: 15px;
-    color: black;
+    color: var(--br-color);
     text-decoration: none;
     margin-left: 66px;
     margin-top: 5px;
@@ -72,7 +72,7 @@ nav a:hover {
     height: 50px;
 }
 .menu-name {
-    color: #F2AA3D;
+    color: var(--font-color-orange);
     margin-left: 40px;
     text-transform: uppercase;
     font-weight: 600;

@@ -8,125 +8,132 @@
     height: 1200px;
     justify-content: center;
 }
+.nav-list {
+    --bottom: 45px;
+    --widht-big: 550px;
+    --widht-small: 350px;
+    --height-img: 200px;
+    --left: 40px;
+}
 .nav-list-burger-img {
-    width: 550px;
-    height: 200px;
+    width: var(--widht-big);
+    height: var(--height-img);
 }
 .nav-list-burger-span {
-    left: 40px;
+    left: var(--left);
     display: block;
     position: relative;
-    color: white;
-    font-size: 20px;
+    color: var(--color-word);
+    font-size: var(--font-size-home);
     text-transform: uppercase;
-    top: -45px;
+    bottom: var(--bottom);
 }
 .nav-list-doner-img {
     margin-left: 100px;
-    width: 350px;
-    height: 200px;
+    width: var(--widht-small);
+    height: var(--height-img);
 }
 .nav-list-doner-span {
     left: 135px;
     display: block;
     position: relative;
-    color: white;
-    font-size: 20px;
+    color: var(--color-word);
+    font-size: var(--font-size-home);
     text-transform: uppercase;
-    top: -45px;
+    bottom: var(--bottom);
 }
 .nav-list-box-img {
-    width: 350px;
-    height: 200px;
+    width: var(--widht-small);
+    height: var(--height-img);
 }
 .nav-list-box-span {
-    left: 40px;
+    left: var(--left);
     display: block;
     position: relative;
-    color: white;
-    font-size: 20px;
+    color: var(--color-word);
+    font-size: var(--font-size-home);
     text-transform: uppercase;
-    top: -45px;
+    bottom: var(--bottom);
 }
 .nav-list-snacks-img {
-    width: 350px;
-    height: 200px;
+    width: var(--widht-small);
+    height: var(--height-img);
 }
 .nav-list-snacks-span {
-    left: 40px;
+    left: var(--left);
     display: block;
     position: relative;
-    color: white;
-    font-size: 20px;
+    color: var(--color-word);
+    font-size: var(--font-size-home);
     text-transform: uppercase;
-    top: -45px;
+    bottom: var(--bottom);
 }
 .nav-list-pizza-img {
     margin-left: -100px;
-    width: 550px;
-    height: 200px;
+    width: var(--widht-big);
+    height: var(--height-img);
 }
 .nav-list-pizza-span {
-    left: -30px;
+    right: 30px;
     display: block;
     position: relative;
-    color: white;
-    font-size: 20px;
+    color: var(--color-word);
+    font-size: var(--font-size-home);
     text-transform: uppercase;
-    top: -45px;
+    bottom: var(--bottom);
 }
 .nav-list-hot-dog-img {
-    width: 350px;
-    height: 200px;
+    width: var(--widht-small);
+    height: var(--height-img);
 }
 .nav-list-hot-dog-span {
     left: 45px;
     display: block;
     position: relative;
-    color: white;
-    font-size: 20px;
+    color: var(--color-word);
+    font-size: var(--font-size-home);
     text-transform: uppercase;
-    top: -45px;
+    bottom: var(--bottom);
 }
 .nav-list-sushi-img {
-    width: 550px;
-    height: 200px;
+    width: var(--widht-big);
+    height: var(--height-img);
 }
 .nav-list-sushi-span {
-    left: 40px;
+    left: var(--left);
     display: block;
     position: relative;
-    color: white;
-    font-size: 20px;
+    color: var(--color-word);
+    font-size: var(--font-size-home);
     text-transform: uppercase;
-    top: -45px;
+    bottom: var(--bottom);
 }
 .nav-list-drinks-img {
     margin-left: 100px;
-    width: 350px;
-    height: 200px;
+    width: var(--widht-small);
+    height: var(--height-img);
 }
 .nav-list-drinks-span {
     left: 140px;
     display: block;
     position: relative;
-    color: white;
-    font-size: 20px;
+    color: var(--color-word);
+    font-size: var(--font-size-home);
     text-transform: uppercase;
-    top: -45px;
+    bottom: var(--bottom);
 }
 .nav-list-sause-img {
-    width: 350px;
-    height: 200px;
+    width: var(--widht-small);
+    height: var(--height-img);
 }
 .nav-list-sause-span {
     display: block;
     position: relative;
-    color: white;
-    font-size: 20px;
+    color: var(--color-word);
+    font-size: var(--font-size-home);
     text-transform: uppercase;
     left: 45px;
-    top: -45px;
+    bottom: var(--bottom);
 }
 .nav-list a {
     text-decoration: none;
