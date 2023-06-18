@@ -1,0 +1,83 @@
+.menu {
+    margin-left: 207px;
+}
+.contact-us-menu {
+    width: 1500px;
+    margin: auto;
+    position: relative;
+    margin-top: 230px;
+}
+.adress-map {
+    display: flex;
+    margin-top: 120px;
+    margin-left: 12px;
+}
+.adress-map-img, .number-map-img, .email-map-img {
+    width: 40px;
+    height: 40px;
+}
+.adress-map p, .number-map p, .email-map p {
+    color: var(--font-color);
+    margin-left: 50px;
+    font-size: 2.5em;
+    margin-top: -1px;
+}
+.adress-link, .number-number, .email-email {
+    display: block;
+    font-size: 1.3em;
+    color: var(--color-word);
+    text-decoration: none;
+    margin-left: 12px;
+    margin-top: -20px;
+}
+.number-map, .email-map {
+    display: flex;
+    margin-top: 80px;
+    margin-left: 12px;
+}
+.contact-form {
+    --color-submit: rgb(126, 9, 9);
+}
+.contact-form {
+    float: right;
+    position: relative;
+    width: 600px;
+    height: 450px;
+    bottom: 455px;
+    right: 180px;
+    background-color: var(--br-nav-cont);
+}
+.contact-form label {
+    display: block;
+    color: var(--color-word);
+    font-size: 1.5em;   
+    margin-left: 30px;
+    margin-top: 13px;
+}
+.contact-form input {
+    display: block;
+    width: 500px;
+    height: 40px;
+    margin-left: 50px;
+    border: 2px solid var(--font-color);
+    background-color: var(--br-nav-cont);
+    border-radius: 10px;
+    margin-top: 5px;
+    color: var(--color-word);
+    font-size: 1.2em;
+}
+.contact-form input:focus {
+    outline: none;
+    border: 2px solid  var(--color-submit);
+}
+.contact-form input[type="submit"] {
+    width: 200px;
+    height: 47px;
+    background-color: var(--font-color);
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+.contact-form input[type="submit"]:hover {
+    background-color: var(--color-submit);
+    border: 2px solid var(--color-submit);
+};
