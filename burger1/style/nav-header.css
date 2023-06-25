@@ -19,11 +19,11 @@ nav a:hover {
 }
  header {
     position: fixed;
+    padding-left: 195px;
     z-index: 10;
     display: flex;
     width: 100%;
     margin-top: 20px;
-    margin-left: 195px;
     height: 80px;
     background-color: var(--br-color);
  }
@@ -62,8 +62,8 @@ nav a:hover {
 }
 .menu {
     display: flex;
-    width: 1500px;
-    margin: auto;
+    width: 100%;
+    margin-left: 204px;
     margin-top: 130px;
 }
 .logo-menu {
@@ -100,7 +100,7 @@ nav a:hover {
     height: 1px;
     background-color: var(--font-color);
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
     .nav-nav a {
         display: none;
     }
@@ -111,33 +111,33 @@ nav a:hover {
         display: none;
     }
     header {
-        margin-left: 0;
+        position: relative;
+        margin: 0 auto;
+        padding-left: 0;
+        left: -127px;
+        justify-content: center;
     }
     .logo-burger {
         position: absolute;
         width: 65px;
         height: 65px;
-        left: 15px;
     }
     .butter {
         width: 150px;
         height: 40px;
-        position: absolute;
-        left: 210px;
-        bottom: 30px;
+        left: 200px;
+        bottom: 10px;
     }
     .butter-order {
         position: absolute;
         right: 44px;
         bottom: 0;
+        justify-content: center;
     }
     .menu {
         position: relative;
-        left: 25px;
-        bottom: 20px;
+        top: 14px;
+        margin: auto;
+        justify-content: center;
     }
-    .menu-name {
-        margin-left: 75px;
-    }
-
 }

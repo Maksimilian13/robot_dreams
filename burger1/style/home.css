@@ -2,11 +2,12 @@
     grid-template-columns: 33% 33% 33%;
     grid-template-rows: 200px 200px 200px;
     grid-row-gap: 56px;
+    grid-column-gap: 70px;
     display: grid;
-    width: 1500px;
-    margin: auto;
+    width: 78%;
+    margin: 0 auto;
+    position: relative;
     height: 1200px;
-    justify-content: center;
     cursor: pointer;
 }
 .nav-list {
@@ -35,7 +36,7 @@
     height: var(--height-img);
 }
 .nav-list-doner-span {
-    left: 135px;
+    left: 140px;
     display: block;
     position: relative;
     color: var(--color-word);
@@ -75,7 +76,7 @@
     height: var(--height-img);
 }
 .nav-list-pizza-span {
-    right: 30px;
+    right: var(--left);
     display: block;
     position: relative;
     color: var(--color-word);
@@ -88,7 +89,7 @@
     height: var(--height-img);
 }
 .nav-list-hot-dog-span {
-    left: 45px;
+    left: 0;
     display: block;
     position: relative;
     color: var(--color-word);
@@ -146,39 +147,47 @@
     height: 40px;
     display: none;
     position: relative;
-    top: 840px;
+    top: 920px;
     color: var(--color-word);
     font-size: 1.4em;
-    left: 37px;
+    width: 300px;
+    height: 100px;
 }
 .adress-mob {
     display: none;
     position: relative;
-    top: 850px;
+    top: 920px;
     color: var(--color-word);
     font-size: 1.4em;
-    left: 37px;
     width: 300px;
     height: 100px;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
     .nav-list {
+        width: 325px;
         display: block;
-        cursor: pointer;
-    }
+     }
     .nav-list img {
-        position: relative;
+        top: 24px;
         width: 325px;
         height: 200px;
-        left: 30px;
-        margin-left: 0;
+        display: block;
+        position: relative;
+        margin: 0 auto;
     }
     .nav-list span {
-        position: relative;
-        left: 60px;
-    }
-    .number-time-mob, .adress-mob {
         display: block;
+        width: 325px;
+        position: relative;
+        margin: 0 auto;
+        left: 30px;
+        bottom: 16px;
+    }
+    .adress-mob, .number-time-mob {
+        display: block;
+        position: relative;
+        margin: 0 auto;
+        justify-content: center;
     }
     .number-time-mob p {
         margin: 0;

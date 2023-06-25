@@ -2,8 +2,9 @@
     margin-left: 207px;
 }
 .contact-us-menu {
-    width: 1500px;
-    margin: auto;
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 200px;
     position: relative;
     margin-top: 230px;
 }
@@ -44,7 +45,7 @@
     width: 600px;
     height: 450px;
     bottom: 455px;
-    right: 180px;
+    right: 530px;
     background-color: var(--br-nav-cont);
 }
 .contact-form label {

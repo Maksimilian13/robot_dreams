@@ -12,9 +12,12 @@ main {
     flex-direction: column;
     flex-wrap: wrap;
     max-height: 1844px;
-    width: 1300px;
-    justify-content: center;
-    margin: 100px auto;
+    width: 1400px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+   
 }
 main img {
     width: 33%;
