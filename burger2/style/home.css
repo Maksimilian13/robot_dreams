@@ -18,13 +18,13 @@
     --left: 40px;
 }
 .nav-list img {
-    filter: opacity(0.7);
+    filter: opacity(0.6);
+    transition: all 1.5s;
 }
 .nav-list img:hover {
     filter: opacity(1);
     transform: scale(1.2);
-    box-shadow: 10px 12px 20px rgb(202, 189, 6);
-    
+    box-shadow: 10px 12px 20px rgb(202, 189, 6);  
 }
 .nav-list-burger-img {
     width: var(--widht-big);
@@ -148,9 +148,6 @@
 }
 .nav-list a {
     text-decoration: none;
-}
-.nav-list img {
-    opacity: 0.7;
 }
 .number-time-mob {
     height: 40px;
