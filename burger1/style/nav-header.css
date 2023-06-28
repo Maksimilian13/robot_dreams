@@ -1,0 +1,143 @@
+nav {
+    display: flex;
+    background-color: var(--br-nav-cont);
+    width: 100%;
+    height: 70px;
+    justify-content: left;
+}
+nav a {
+    color: var(--color-word);
+    text-decoration: none;
+    font-size: 24;
+    margin-left: 210px;
+    margin-top: 23px;
+    font-family: merriweather;
+    font-size: var(--font-size-home);
+}
+nav a:hover {
+    color: var(--font-color);
+}
+ header {
+    position: fixed;
+    padding-left: 195px;
+    z-index: 10;
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    height: 80px;
+    background-color: var(--br-color);
+ }
+ header p {
+    color: var(--color-word);
+    font-size: 1.2em;
+ }
+ .number-time {
+    margin-left: 10px;
+    justify-content: center;
+}
+.number-time-time {
+    margin-top: -20px;
+}
+.adress {
+    margin: 30px;
+}
+.butter {
+    width: 200px;
+    height: 50px;
+    background-color: var(--font-color);
+    position: relative;
+    left: 420px;
+    margin-top: 27px;
+    border-radius: 8px;
+}
+.butter-order {
+    display: block;
+    font-size: 15px;
+    color: var(--br-color);
+    text-decoration: none;
+    margin-left: 66px;
+    margin-top: 5px;
+    text-transform: uppercase;
+    font-family: whittelove;
+}
+.menu {
+    display: flex;
+    width: 100%;
+    margin-left: 204px;
+    margin-top: 130px;
+}
+.logo-menu {
+    margin-left: -2px;
+    width: 52px;
+    height: 50px;
+}
+.menu-name {
+    color: var(--font-color);
+    margin-left: 40px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: lobster;
+    font-size: 25px;
+    margin-top: 11px;
+}
+.nav-nav button {
+    border: 1px solid var(--font-color);
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: var(--br-nav-cont);
+    position: absolute;
+    top: 15px;
+    left: 25px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    cursor: pointer;
+}
+.nav-nav button span {
+    display: block;
+    width: 25px;
+    height: 1px;
+    background-color: var(--font-color);
+}
+@media screen and (max-width: 1000px) {
+    .nav-nav a {
+        display: none;
+    }
+    .nav-nav button {
+        display: flex;
+    }
+    .adress, .number-time {
+        display: none;
+    }
+    header {
+        position: relative;
+        margin: 0 auto;
+        padding-left: 0;
+        left: -127px;
+        justify-content: center;
+    }
+    .logo-burger {
+        position: absolute;
+        width: 65px;
+        height: 65px;
+    }
+    .butter {
+        width: 150px;
+        height: 40px;
+        left: 200px;
+        bottom: 10px;
+    }
+    .butter-order {
+        position: absolute;
+        right: 44px;
+        bottom: 0;
+        justify-content: center;
+    }
+    .menu {
+        position: relative;
+        top: 14px;
+        margin: auto;
+        justify-content: center;
+    }
+}
