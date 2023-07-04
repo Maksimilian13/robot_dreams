@@ -23,3 +23,7 @@ body {
     background-color: var(--br-color);
     margin: 0;
 }
+
+@mixin spaces ($duration) {
+    animation-duration: $duration; 
+}
