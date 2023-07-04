@@ -47,6 +47,8 @@
     bottom: 455px;
     right: 530px;
     background-color: var(--br-nav-cont);
+    animation-name: contact-form-animation;
+    animation-duration: 3s;
 }
 .contact-form label {
     display: block;
@@ -81,4 +83,15 @@
 .contact-form input[type="submit"]:hover {
     background-color: var(--color-submit);
     border: 2px solid var(--color-submit);
-};
+}
+
+@keyframes contact-form-animation {
+    0% {
+        transform: scale(2);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
