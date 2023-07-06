@@ -3,6 +3,7 @@
     <head>
         <title>Burger Rectaurant</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link rel="stylesheet" href="build/styles.css">
         <link rel="icon" type="image/x-icon" href="img/logo-burger.png">
     </head>
@@ -46,17 +47,26 @@
                     <p class="email-email">donerking@gmail.com</p>
                 </div>
             </div>
-            <form class="contact-form">
-                <label for="first-name">First Name</label>
-                <input type="text" name="first-name" id="first-name">
-                <label for="last-name">Last Name</label>
-                <input type="text" name="last-name" id="last-name">
-                <label for="phone-number">Phone Number</label>
-                <input type="text" name="phone-number" id="phone-number">
-                <label for="email">Email</label>
-                <input type="text" name="email" id="email">
-                <input type="submit" name="order" value="order">
-            </form>
+            <div class="contact-form">
+                <div class="form-floating m-4">
+                    <input type="text" class="form-control" id="floatingInput" placeholder="text">
+                    <label for="floatingInput">First Name</label>
+                </div>
+                <div class="form-floating m-4">
+                    <input type="text" class="form-control" id="floatingInput" placeholder="text">
+                    <label for="floatingInput">Last Name</label>
+                </div>
+                <div class="form-floating m-4">
+                    <input type="text" class="form-control" id="floatingInput" placeholder="text">
+                    <label for="floatingInput">Phone Number</label>
+                </div>
+                <div class="form-floating m-4">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="text">
+                    <label for="floatingInput">Email</label>
+                </div>
+                <button type="button" class="btn-lg btn-outline-warning m-4">ORDER</button>
+            </div>
         </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     </body>
 </html>

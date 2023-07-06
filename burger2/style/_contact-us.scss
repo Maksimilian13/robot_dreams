@@ -15,7 +15,7 @@
     height: 40px;
 }
 .adress-map p, .number-map p, .email-map p {
-    color: var(--font-color);
+    color: var(--font-color1);
     margin-left: 50px;
     font-size: 2.5em;
     margin-top: -1px;
@@ -34,7 +34,7 @@
     margin-left: 12px;
 }
 .contact-form {
-    --color-submit: rgb(126, 9, 9);
+    --font-submit: rgb(216, 83, 22)
 }
 .contact-form {
     float: right;
@@ -47,43 +47,25 @@
     animation-name: contact-form-animation;
     animation-duration: 3s;
 
-    label {
-        display: block;
-        color: var(--color-word);
-        font-size: 1.5em;   
-        margin-left: 30px;
-        margin-top: 13px;
-    }
     input {
-        display: block;
-        width: 500px;
-        height: 40px;
-        margin-left: 50px;
-        border: 2px solid var(--font-color);
-        background-color: var(--br-nav-cont);
-        border-radius: 10px;
-        margin-top: 5px;
-        color: var(--color-word);
-        font-size: 1.2em;
+        background-color: var(--font-color2);
+        border: 1px solid var(--font-color2);
 
         &:focus {
-            outline: none;
-            border: 2px solid  var(--color-submit);
-        }
-        &[type="submit"] {
-            width: 200px;
-            height: 47px;
-            background-color: var(--font-color);
-            margin-top: 20px;
-            text-transform: uppercase;
-
-            &:hover {
-                background-color: var(--color-submit);
-                border: 2px solid var(--color-submit);
-            }
+            background-color: var(--font-color1);
+            border: 1px solid var(--font-color1);
         }
     }
 
+    label {
+        color: var(--color-word);
+        font-size: 1.2em;
+    }
+
+    button {
+        background-color: var(--font-submit);
+        border: 1px solid  var(--font-submit);
+    }
 }
 
 @keyframes contact-form-animation {
