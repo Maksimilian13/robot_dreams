@@ -2,9 +2,6 @@ let div1 = document.getElementById('test1');
 let div2 = document.getElementById('test2');
 let div3 = document.getElementById('test3');
 let div4 = document.getElementById('test4');
-let div5 = document.getElementById('test5');
-let div6 = document.getElementById('test6');
-
 
 let numberFirst = prompt('number1');
 let numberSecond = prompt('number2');
@@ -35,10 +32,9 @@ function checkingTheResult1(t) {
            div1.style.color = 'red';
     }
 }
+
 let xx = checkingTheResult1(x);
 console.log('addition ' + x);
-
-
 
 function subtrasction(a,b) {
     if (checking(a) && checking(b)) {
@@ -58,9 +54,9 @@ function checkingTheResult2(t) {
            div2.style.color = 'red';
     }
 }
+
 let nn = checkingTheResult2(n);
 console.log('subtrasction ' + n);
-
 
 function  multiplication(a,b) {
     if (checking(a) && checking(b)) {
@@ -80,9 +76,9 @@ function checkingTheResult3(t) {
            div3.style.color = 'red';
     }
 }
+
 let mm = checkingTheResult3(m);
 console.log('multiplication ' + m);
-
 
 function  division(a,b) {
     if (checking(a) && checking(b)) {
@@ -102,6 +98,7 @@ function checkingTheResult4(t) {
            div4.style.color = 'red';
     }
 }
+
 let cc = checkingTheResult4(c);
 console.log('division ' + c);
 
