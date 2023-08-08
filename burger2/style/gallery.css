@@ -7,7 +7,7 @@ h2 {
     margin-top: 150px;
     font-family: merriweather;
 }
-main {
+.container {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -18,14 +18,15 @@ main {
     left: 0;
     margin: 0 auto;  
 }
-main img {
+.container img {
     width: 33%;
     margin: 5px 5px;
-    filter: grayscale(1);
+    transition: all 1.5s linear;
+    cursor: pointer;
 }
-main img:hover {
-    filter: grayscale(0);
-    transform: scale(1.3);
-    position: relative;
-    z-index: 10;
+
+.img-enlargen {
+    transform: scale(1.5);
+    transition: all 1.5s linear;
+    z-index: 5;
 }
