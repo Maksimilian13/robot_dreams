@@ -7,7 +7,7 @@ let numberFirst = prompt('number1');
 let numberSecond = prompt('number2');
 
 function checking(value) {
-    if (typeof value === 'number' && !isNaN(value)) {
+    if (typeof(value) === 'number' && !isNaN(value)) {
     return true;
     } else {
     return false;
@@ -25,11 +25,11 @@ let x = addition(+numberFirst,+numberSecond);
 
 function checkingTheResult1(t) {
     if(t > 0) {
-    return div1.append('addition ' + t),
-           div1.style.color = 'green';
+        div1.append('addition ' + t),
+        div1.style.color = 'green';
     } else {
-    return div1.append('addition ' + t),
-           div1.style.color = 'red';
+        div1.append('addition ' + t),
+        div1.style.color = 'red';
     }
 }
 
@@ -47,11 +47,11 @@ let n = subtrasction(+numberFirst,+numberSecond);
 
 function checkingTheResult2(t) {
     if(t > 0) {
-    return div2.append('subtrasction ' + t),
-           div2.style.color = 'green';
+        div2.append('subtrasction ' + t),
+        div2.style.color = 'green';
     } else {
-    return div2.append('subtrasction ' + t),
-           div2.style.color = 'red';
+        div2.append('asubtrasction ' + t),
+        div2.style.color = 'red';
     }
 }
 
@@ -69,11 +69,11 @@ let m =  multiplication(+numberFirst,+numberSecond);
 
 function checkingTheResult3(t) {
     if(t > 0) {
-    return div3.append('multiplication ' + t),
-           div3.style.color = 'green';
+        div3.append('multiplication ' + t),
+        div3.style.color = 'green';
     } else {
-    return div3.append('multiplication ' + t),
-           div3.style.color = 'red';
+        div3.append('multiplication ' + t),
+        div3.style.color = 'red';
     }
 }
 
@@ -91,11 +91,11 @@ let c =  division(+numberFirst,+numberSecond);
 
 function checkingTheResult4(t) {
     if(t > 0) {
-    return div4.append('division ' + t),
-           div4.style.color = 'green';
+        div4.append('division ' + t),
+        div4.style.color = 'green';
     } else {
-    return div4.append('division ' + t),
-           div4.style.color = 'red';
+        div4.append('division ' + t),
+        div4.style.color = 'red';
     }
 }
 
@@ -109,7 +109,7 @@ console.log(array);
 function findMax(array) {
     let max = array[0];
     for (let i of array) {
-        if (typeof(i) === 'number') {
+        if (typeof(i) === 'number' && !isNaN(i)) {
             if (max < i) {
             max = i;
             }
@@ -122,7 +122,7 @@ console.log('max ' + findMax(array));
 function findMin(array) {
     let min = array[0];
     for (let i of array) {
-        if (typeof(i) === 'number') {
+        if (typeof(i) === 'number' && !isNaN(i)) {
             if (min > i) {
             min = i;
             }
