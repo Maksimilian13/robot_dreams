@@ -23,7 +23,7 @@ function subtrasction(a,b) {
       return 'Error';    }
 }
 let g = subtrasction();
-console.log('subtrasctionn' + x);
+console.log('subtrasctionn' + g);
 
 let array = [33, 42, 7, 17, 73, 4, 8, true, 23, 29];
 
