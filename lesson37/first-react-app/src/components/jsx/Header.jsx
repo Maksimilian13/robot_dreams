@@ -1,10 +1,12 @@
 import React from 'react';
-import './Header.css';
+import '../style/Header.css';
+import Cart from './Cart';
 
-function Header() {
+function Header({ cartItems }) {
   return (
     <header>
       <h1>My Online Store</h1>
+      <Cart cartItems={cartItems} />
     </header>
   );
 }
