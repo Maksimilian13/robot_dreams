@@ -1,0 +1,30 @@
+#user-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#user-list li {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#user-list li:hover {
+    background-color: #e98b8b;
+}
+
+#user-posts {
+    list-style-type: none;
+    padding: 0;
+}
+
+#user-posts li {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
