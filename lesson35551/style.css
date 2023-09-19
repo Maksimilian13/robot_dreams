@@ -1,0 +1,41 @@
+body {
+    padding: 50px;
+}
+h1 {
+    text-align: center;
+}
+main img {
+    display: block;
+    width: 300px;
+    height: 500px;
+    margin-bottom: 30px;
+}
+.form {
+    display: block;
+    width: 300px;
+    margin-top: 30px;
+}
+.star {
+    color: gray;
+    margin-right: 5px;
+    font-size: 24px;
+    cursor: pointer;
+}
+.star.active {
+    color: gold;
+}
+
+.comment-list {
+    margin: 20px 0;
+}
+.comment-list div {
+    margin: 10px 0;
+}
+
+.comment-list button {
+    background-color: blue;
+    margin: auto 5px;
+    color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+}
